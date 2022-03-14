@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  status: MyString
+  patient: one
+  doctor: one
+
+two:
+  type: 
+  status: MyString
+  patient: two
+  doctor: two
