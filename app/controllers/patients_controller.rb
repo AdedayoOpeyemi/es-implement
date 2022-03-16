@@ -7,7 +7,7 @@ class PatientsController < ApplicationController
           fields: ['first_name', 'last_name']
         }
       }
-    ).results
+    ).records
   
     render json: {
       results: response.results,

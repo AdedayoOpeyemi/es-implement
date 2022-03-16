@@ -16,4 +16,6 @@ class Patient < ApplicationRecord
       }
     )
   end 
+
+  # Patient.import
 end

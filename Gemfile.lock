@@ -88,6 +88,7 @@ GEM
       activesupport (> 3)
       elasticsearch (~> 7)
       hashie
+    elasticsearch-rails (7.2.1)
     elasticsearch-transport (7.17.1)
       faraday (~> 1)
       multi_json
@@ -250,6 +251,7 @@ DEPENDENCIES
   byebug
   capybara (>= 3.26)
   elasticsearch-model
+  elasticsearch-rails
   faker
   jbuilder (~> 2.7)
   listen (~> 3.3)
