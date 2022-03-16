@@ -1,4 +1,6 @@
 require 'elasticsearch/model'
+# https://docs.bonsai.io/article/97-ruby-on-rails
+
 
 class Patient < ApplicationRecord
   has_many :cases
@@ -19,3 +21,5 @@ class Patient < ApplicationRecord
   end 
 
 end
+
+
