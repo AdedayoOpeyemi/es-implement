@@ -27,9 +27,13 @@ gem 'jbuilder', '~> 2.7'
 gem 'faker'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
-gem 'elasticsearch-model' , '7.1.1'
-gem 'elasticsearch-rails'
-gem 'bonsai-elasticsearch-rails'
+# gem 'elasticsearch-model' , '7.1.1'
+# gem 'elasticsearch-rails'
+# gem 'bonsai-elasticsearch-rails'
+
+gem 'bonsai-elasticsearch-rails', '~> 7'
+gem 'elasticsearch-model', github: 'elastic/elasticsearch-rails', branch: 'main'
+gem 'elasticsearch-rails', github: 'elastic/elasticsearch-rails', branch: 'main'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
